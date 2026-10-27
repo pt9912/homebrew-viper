@@ -2,29 +2,29 @@
 # placeholders from the SHA256SUMS of the same tag, attaches the result to the release as
 # viper.rb and puts it into the tap pt9912/homebrew-viper. Four platforms: Homebrew has no Windows.
 class Viper < Formula
-  desc "Set up and use Hetzner machines for Claude Code"
+  desc "Set up and use cloud machines for Claude Code"
   homepage "https://github.com/pt9912/hetzner-viper"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.7.0/viper_v0.7.0_darwin_arm64"
-      sha256 "a744f0ccaf83af866c675259aad72bc579beb9bbefda3dd940d53ef33f9e0c81"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.8.0/viper_v0.8.0_darwin_arm64"
+      sha256 "9a2a9d1e798005a93b8c972d9e7dfc50dc0ae07b54d23e012ba2b931ae903592"
     end
     on_intel do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.7.0/viper_v0.7.0_darwin_amd64"
-      sha256 "3ab5ea974ce9b71a7b9dc3a40c178030532002003ad9297621d2b966225b5419"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.8.0/viper_v0.8.0_darwin_amd64"
+      sha256 "e8048577879bb3b137679f35e9119b86d017b2873b4beeec9f7e3a2fe624a39c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.7.0/viper_v0.7.0_linux_arm64"
-      sha256 "198dd909c9360633d227ac0eb5135f832f4e1c870de1031019a20392fde33baf"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.8.0/viper_v0.8.0_linux_arm64"
+      sha256 "870d3d248861ed6274a4d974f033e88a94ebe7645ea4ab5b8eb73a65e1c1a594"
     end
     on_intel do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.7.0/viper_v0.7.0_linux_amd64"
-      sha256 "088d37bc705031fe4946510205c2902919d5da692f5ee83c96e845f7270b3d4d"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.8.0/viper_v0.8.0_linux_amd64"
+      sha256 "60e5a9e103e562b2e29fb58e1bd2ac7e0c4a24d031be58c0672ce9d04444bda4"
     end
   end
 
