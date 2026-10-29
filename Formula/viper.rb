@@ -8,23 +8,23 @@ class Viper < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.9.0/viper_v0.9.0_darwin_arm64"
-      sha256 "75facf49dd15f1e48f23d70d5adb4da52631a45959bc4d280af25e0362287bed"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.10.0/viper_v0.10.0_darwin_arm64"
+      sha256 "a8293d4795182af66d1595fdca1fb47025b44728a153ac1b92b016045021d91a"
     end
     on_intel do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.9.0/viper_v0.9.0_darwin_amd64"
-      sha256 "13a4c81d17cc17ca4d1e6c63133b782c4d1c5792acf75e5b4ddf773fe5c24de4"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.10.0/viper_v0.10.0_darwin_amd64"
+      sha256 "0c15a33c42d1f1d5b9489906fc2e6980ba15b0ad1387b39dfc5223403bb134bc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.9.0/viper_v0.9.0_linux_arm64"
-      sha256 "4da3134cfc46458be9a724f0af4aa807ccc092b108caef23107b1a6e1d58922b"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.10.0/viper_v0.10.0_linux_arm64"
+      sha256 "2fbee22965f4a5f8a39ae8d4fdfbc544907fb852da7121449fdde4c6e3a1eb01"
     end
     on_intel do
-      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.9.0/viper_v0.9.0_linux_amd64"
-      sha256 "6b73ea2f003fe9cdb815165cac34155f10e1fcbcbbe5f47b7c7d0e674eb3f650"
+      url "https://github.com/pt9912/hetzner-viper/releases/download/v0.10.0/viper_v0.10.0_linux_amd64"
+      sha256 "9510599d8da4a7a66980364f5ec692a809aad07f36be311d7a58c82deff2bdf6"
     end
   end
 
